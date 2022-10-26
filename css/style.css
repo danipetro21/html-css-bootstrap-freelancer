@@ -3,7 +3,15 @@
     --bg-color-1abc9c: #1abc9c;
     --bg-color-3a546d: #3a546d;
 }
-/*STYLE SECTION*/
+/*STYLE*/
+
+/*GENERAL*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
 .sect-nav{
     background-color: var(--bg-color-2c3e50);
 
@@ -30,18 +38,27 @@
 .contact .container{
     max-width: 1100px;
 }
+.about, .jumbotron{
+    color: white;
+}
+.info{
+    background-color: var(--bg-color-3a546d);
+    color:white
+}
+
+/*taag i style*/
+
+.info i{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 1px white solid;
+    cursor: pointer;
+}
+
+.copy{
+    background-color: var(--bg-color-2c3e50);
+}
+
 /* debug */
-
-
-
-[class*="container"] {
-    border: 1px rgb(255, 255, 255) solid;
-
-    
-}
-
-.green {
-    background-color: #1abc9c;
-    min-height: 400px;
-}
-
