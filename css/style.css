@@ -9,10 +9,10 @@
 
 }
 
-.jumbotron{
+.jumbotron, .about{
     background-color: var(--bg-color-1abc9c);
-
 }
+
 
 .navbar-brand, .nav-link{
     color: white;
@@ -23,6 +23,13 @@
     max-width: 600px;
 }
 
+.about .container{
+    max-width: 1100px;
+}
+
+.contact .container{
+    max-width: 1100px;
+}
 /* debug */
 
 
