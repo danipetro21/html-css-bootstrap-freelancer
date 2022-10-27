@@ -11,6 +11,30 @@ a {
     color: white;
 }
 
+.star {
+    display: flex;
+    flex-direction: row;
+
+}
+  
+.star:before,
+.star:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    margin: auto 20px;
+    
+}
+
+.blk:before,
+.blk:after {
+    border-bottom: 5px solid rgb(0, 0, 0);
+
+}
+  
+
+
+
 
 .sect-nav{
     background-color: var(--bg-color-2c3e50);
